@@ -125,11 +125,17 @@ To help you get the most out of AI Optimizer, we have curated and battle-tested 
 
 | Skill | Primary Benefit | Why It Saves Tokens & Money |
 | :--- | :--- | :--- |
-| `context-budget` | **Context Window Auditor** | Scans active rules, skills, MCP servers, and prompt files to identify context bloat and reclaim valuable token headroom. |
-| `token-budget-advisor` | **Upfront Depth Controller** | Classifies request complexity and gives you control over response verbosity before the agent starts generating code. |
-| `prompt-optimizer` | **Prompt Compactor** | Refines raw prompts into surgical, high-signal instructions that maximize prompt-cache hit rates (up to 90%+). |
-| `regex-vs-llm` | **Zero-Token Text Extractor** | Uses fast, deterministic regular expressions for 95%+ of structured text tasks, saving LLM calls strictly for edge cases. |
-| `cost-tracking` | **Session Spend Breakdown** | Provides granular per-session cost and model accounting from local session logs without external API dependencies. |
+| [`context-budget`](skills/context-budget) | **Context Window Auditor** | Scans active rules, skills, MCP servers, and prompt files to identify context bloat and reclaim valuable token headroom. |
+| [`token-budget-advisor`](skills/token-budget-advisor) | **Upfront Depth Controller** | Classifies request complexity and gives you control over response verbosity before the agent starts generating code. |
+| [`prompt-optimizer`](skills/prompt-optimizer) | **Prompt Compactor** | Refines raw prompts into surgical, high-signal instructions that maximize prompt-cache hit rates (up to 90%+). |
+| [`regex-vs-llm`](skills/regex-vs-llm) | **Zero-Token Text Extractor** | Uses fast, deterministic regular expressions for 95%+ of structured text tasks, saving LLM calls strictly for edge cases. |
+| [`cost-tracking`](skills/cost-tracking) | **Session Spend Breakdown** | Provides granular per-session cost and model accounting from local session logs without external API dependencies. |
+| [`opt-review`](skills/opt-review) | **Diff & Bloat Pruner** | Inspects code diffs specifically for what can be deleted (speculative code, single-caller abstractions, comment clutter) before merging. |
+| [`opt-compress`](skills/opt-compress) | **Rule & Instruction Compactor** | Rewrites project instructions and AGENTS.md files into high-signal declarative bullets, saving input tokens on every turn. |
+| [`opt-loop`](skills/opt-loop) | **Loop & Cron Budget Control** | Enforces prompt-cache pacing (<270s or ≥1200s, avoiding the 300s dead zone), event triggers, and hard exit stops for recurring tasks. |
+| [`opt-design`](skills/opt-design) | **Lean UI Engineering** | Delivers pixel-perfect HTML/CSS with ~50% fewer code tokens via fluid units and modern CSS custom properties without div-soup bloat. |
+| [`opt-memory`](skills/opt-memory) | **Committed Architecture Cache** | Maintains a single version-controlled PROJECT.md caching architecture intent and build commands to eliminate cold-start rediscovery. |
+| [`opt-debt`](skills/opt-debt) | **YAGNI Shortcut Ledger** | Scans for deliberate YAGNI comments (shortcut:, opt:) and compiles an actionable debt ledger with revisit triggers. |
 
 ---
 
