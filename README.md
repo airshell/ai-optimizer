@@ -4,6 +4,7 @@
   <p><strong>Less Tokens. Lower Costs. Better Code.</strong></p>
 
   <p>
+    <a href="https://optimizer.aimaxo.com"><img src="https://img.shields.io/badge/Website-optimizer.aimaxo.com-00ed64?style=flat-square" alt="Website" /></a>
     <a href="https://github.com/airshell/ai-optimizer/releases/latest"><img src="https://img.shields.io/badge/Release-v1.0.0-00ed64?style=flat-square" alt="Release" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT%20%26%20BSL--1.1-blue?style=flat-square" alt="License: MIT & BSL-1.1" /></a>
     <img src="https://img.shields.io/badge/Platform-macOS%20MenuBar%20%7C%20CLI-black?style=flat-square" alt="Platform" />
@@ -20,6 +21,8 @@
 By combining real-time token and cost auditing with software engineering best practices (strict YAGNI, surgical diffs, stdlib-first solutions, and prompt-cache maximization), AI Optimizer helps coding agents generate cleaner, more maintainable, and more efficient code while slashing token waste and LLM API costs by **30% to 53%**.
 
 > *Optimize your AI workflows. Reduce unnecessary token consumption. Cut costs. Write better code.*
+
+🌐 **Official Website:** [optimizer.aimaxo.com](https://optimizer.aimaxo.com)
 
 ---
 
@@ -135,8 +138,8 @@ This repository uses a **Mixed Licensing Model** ([LICENSE](LICENSE)):
 - **Commercial & Enterprise Use:** Any commercial use by enterprises, companies, or organizations (including deployment across employee developer fleets or server-side CI/CD runners) requires a commercial license agreement from Licensor.
 
 For enterprise licensing arrangements, custom use grants, or cloud integrations:  
-📧 Contact: **enterprise@airshell.dev** or visit **[github.com/airshell](https://github.com/airshell)**.
+📧 Contact: **info@aimaxo.com** or visit **[optimizer.aimaxo.com](https://optimizer.aimaxo.com)**.
 
 ---
 
-Developed with precision by **[Airshell](https://github.com/airshell)**.
+Developed with precision by **[Airshell](https://github.com/airshell)** • Official Website: **[optimizer.aimaxo.com](https://optimizer.aimaxo.com)**.

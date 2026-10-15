@@ -41,11 +41,12 @@ The **AI Optimizer Application**, binary packages, desktop companions, and telem
 ### Parameters
 - **Licensor:** Airshell (https://github.com/airshell)
 - **Licensed Work:** AI Optimizer (ai-opt) v1.0 and later. © 2026 Airshell.
+- **Official Website:** https://optimizer.aimaxo.com
 - **Additional Use Grant (Personal & Non-Commercial Use):**
   You may make free personal and non-production use of the Licensed Work, including running it locally for individual development workflows, provided that you do not use it to build, offer, or distribute a competing product, commercial managed cloud service, or hosted multi-tenant API service.
 - **Commercial & Enterprise Use:**
   Any enterprise, company, or organization utilizing the Licensed Work for commercial purposes, server-side CI/CD runners, or developer fleet deployment must obtain a valid commercial license from Licensor.
-  Contact: **enterprise@airshell.dev** or visit **https://github.com/airshell**
+  Contact: **info@aimaxo.com** or visit **https://optimizer.aimaxo.com**
 - **Change Date:** Four years from the date each version of the Licensed Work is published.
 - **Change License:** GNU Affero General Public License, version 3 or later (AGPL-3.0-or-later).
 
