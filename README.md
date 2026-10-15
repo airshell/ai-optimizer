@@ -1,7 +1,9 @@
 <div align="center">
-  <img src="assets/logo-icon.png" width="96" height="96" alt="AI Optimizer Brand Icon" />
-  <h1>AI Optimizer</h1>
-  <p><strong>Less Tokens. Lower Costs. Better Code.</strong></p>
+  <a href="https://optimizer.aimaxo.com">
+    <img src="assets/ai-optimizer-hero-banner.jpg" alt="AI Optimizer — Less Tokens. Lower Costs. Better Code." width="100%" />
+  </a>
+  <br />
+  <br />
 
   <p>
     <a href="https://optimizer.aimaxo.com"><img src="https://img.shields.io/badge/Website-optimizer.aimaxo.com-00ed64?style=flat-square" alt="Website" /></a>
