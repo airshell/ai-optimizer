@@ -6,6 +6,7 @@
   <p>
     <a href="https://optimizer.aimaxo.com"><img src="https://img.shields.io/badge/Website-optimizer.aimaxo.com-00ed64?style=flat-square" alt="Website" /></a>
     <a href="https://github.com/airshell/ai-optimizer/releases/latest"><img src="https://img.shields.io/badge/Release-v1.0.0-00ed64?style=flat-square" alt="Release" /></a>
+    <a href="https://github.com/airshell/homebrew-tap"><img src="https://img.shields.io/badge/Homebrew-airshell%2Ftap-orange?style=flat-square" alt="Homebrew Tap" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT%20%26%20BSL--1.1-blue?style=flat-square" alt="License: MIT & BSL-1.1" /></a>
     <img src="https://img.shields.io/badge/Platform-macOS%20MenuBar%20%7C%20CLI-black?style=flat-square" alt="Platform" />
     <img src="https://img.shields.io/badge/Privacy-100%25%20Offline%20%26%20Local-00ed64?style=flat-square" alt="100% Local & Private" />
@@ -76,17 +77,34 @@ The **Efficiency & Resource Analytics** screen gives you deep, transparent visib
 
 ---
 
-## 💻 1-Click Desktop Installation
+## 💻 Installation & Updates
 
-### Option 1: Quick Install via Terminal (Recommended)
+### Option 1: Install via Homebrew (Recommended)
 
-Run the following command to automatically download, install, and clear macOS Gatekeeper quarantine for the native Menu Bar app:
+Install the native macOS Menu Bar app in one command using the official Airshell tap:
+
+```bash
+brew install --cask airshell/tap/ai-optimizer
+```
+
+To update to future releases:
+```bash
+brew upgrade --cask ai-optimizer
+```
+
+---
+
+### Option 2: 1-Line Terminal Script
+
+Run the automated installer script to download the disk image and clear Gatekeeper:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/airshell/ai-optimizer/main/install.sh | bash
 ```
 
-### Option 2: Direct Download
+---
+
+### Option 3: Direct Download (.dmg)
 
 Download the disk image directly from our GitHub Releases:
 
