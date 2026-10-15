@@ -5,8 +5,8 @@
 
   <p>
     <a href="https://github.com/airshell/ai-optimizer/releases/latest"><img src="https://img.shields.io/badge/Release-v1.0.0-00ed64?style=flat-square" alt="Release" /></a>
-    <a href="https://github.com/airshell/ai-optimizer/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square" alt="License" /></a>
-    <img src="https://img.shields.io/badge/Platform-macOS%20MenuBar-black?style=flat-square" alt="Platform" />
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT%20%26%20BSL--1.1-blue?style=flat-square" alt="License: MIT & BSL-1.1" /></a>
+    <img src="https://img.shields.io/badge/Platform-macOS%20MenuBar%20%7C%20CLI-black?style=flat-square" alt="Platform" />
     <img src="https://img.shields.io/badge/Telemetry-100%25%20Zero--Mock-orange?style=flat-square" alt="Zero-Mock" />
   </p>
 </div>
@@ -17,22 +17,22 @@
 
 **AI Optimizer** is an autonomous token accounting, cost auditing, and code efficiency engine designed to cut AI coding agent token waste and API costs by **30% to 53%** with zero loss of solution quality.
 
-It couples **cross-agent optimization skills** (enforcing surgical diffs, stdlib-first solutions, and prompt cache reuse) with a **native macOS Menu Bar companion** delivering live, real-time token spend, velocity, and savings telemetry directly from your filesystem.
+It couples **cross-agent optimization skills** (enforcing surgical diffs, stdlib-first solutions, context compression, and prompt cache reuse) with a **native macOS Menu Bar companion** delivering live, real-time token spend, velocity, and savings telemetry directly from your local filesystem.
 
 ---
 
 ## Key Features
 
-- **Native macOS Menu Bar Companion**: Ultra-lightweight status bar telemetry displaying live intensity (lite, full, ultra), active agent state, and token savings in an Obsidian dark popover dashboard.
-- **Multi-Agent Unified Accounting**: Native transcript parsers for:
+- **⚡ Native macOS Menu Bar Companion**: Ultra-lightweight status bar telemetry displaying live intensity (`lite`, `full`, `ultra`), active agent state, and token savings in an Obsidian dark popover dashboard.
+- **🔍 Multi-Agent Unified Accounting**: Native transcript parsers for:
   - **Google Antigravity (`agy` & Antigravity IDE)**
   - **OpenAI Codex** (CLI & IDE extension)
   - **Anthropic Claude Code**
   - **RTK Proxy & Ponytail**
   - **OpenCode, Gemini CLI, Cursor, Windsurf & Cline**
-- **Truth-First Deduplication**: Canonical summary event parsing (`token_usage_record`) with turn-by-turn fallback prevents artificial double-counting of prompt tokens.
-- **100% Local & Private**: Runs entirely offline on your local machine. No external telemetry, no remote analytics, no data leakage.
-- **Ultra-Low Overhead**: Native Swift frontend + high-performance in-memory aggregation cache delivers `< 2ms` dashboard response times with negligible battery impact.
+- **🛡️ Truth-First Deduplication**: Canonical summary event parsing (`token_usage_record`) with turn-by-turn fallback prevents artificial double-counting of prompt tokens.
+- **🔒 100% Local & Private**: Runs entirely offline on your local machine. No external telemetry, no remote analytics, zero data leakage.
+- **🚀 Ultra-Low Overhead**: Native Swift frontend + high-performance in-memory aggregation cache delivers `< 2ms` dashboard response times with negligible battery impact.
 
 ---
 
@@ -40,7 +40,7 @@ It couples **cross-agent optimization skills** (enforcing surgical diffs, stdlib
 
 ### Option 1: Quick Install via Terminal (Recommended)
 
-Run the following command to automatically download, install, and clear macOS Gatekeeper quarantine for the native Menu Bar app:
+Run the following command to automatically download, install, and clear macOS Gatekeeper quarantine for the native Menu Bar companion:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/airshell/ai-optimizer/main/install.sh | bash
@@ -50,7 +50,7 @@ curl -fsSL https://raw.githubusercontent.com/airshell/ai-optimizer/main/install.
 
 Download the disk image directly from our GitHub Releases:
 
-[Download AI Optimizer for macOS (.dmg)](https://github.com/airshell/ai-optimizer/releases/latest/download/AI-Optimizer-macOS.dmg)
+👉 **[Download AI Optimizer for macOS (.dmg)](https://github.com/airshell/ai-optimizer/releases/latest/download/AI-Optimizer-macOS.dmg)**
 
 *Drag `AiOptimizer.app` to your `/Applications` folder, then launch it from Spotlight.*
 
@@ -92,7 +92,7 @@ Adopt the AI Optimizer full tier: enforce YAGNI architecture, surgical diffs, st
 
 ---
 
-## Coming Soon: AI Optimizer Enterprise (Server CLI)
+## 🚀 Coming Soon: AI Optimizer Enterprise (Server CLI)
 
 We are launching the **AI Optimizer Enterprise Server Edition**, tailored for engineering organizations and cloud infrastructure:
 
@@ -101,12 +101,24 @@ We are launching the **AI Optimizer Enterprise Server Edition**, tailored for en
 - **Fleet-Wide Cost Auditing**: Aggregate agent spend across engineering teams with centralized budgeting and rate-card alerts.
 - **Enterprise SLA & Support**: Custom model adapters, private pricing overrides, and compliance integration.
 
-For enterprise inquiries, private pilots, or volume licensing:  
-Contact: **enterprise@airshell.dev** or visit **[github.com/airshell](https://github.com/airshell)**.
+---
+
+## 📜 Licensing & Terms of Use
+
+This repository uses a **Mixed Licensing Model** ([LICENSE](LICENSE)):
+
+### 1. Open Source Components (MIT License)
+- The agent skill definitions (`skills/`) and installer scripts (`install.sh`) are licensed under the **[MIT License](LICENSE)**.
+- Free to use, adapt, and integrate into any personal or open-source workflow.
+
+### 2. Application & Telemetry Engine (Business Source License 1.1)
+- The **AI Optimizer Application**, binary packages, desktop companions, and telemetry engine are licensed under the **[Business Source License 1.1 (BSL-1.1)](LICENSE)** (converting to GNU AGPLv3 after 4 years).
+- **Personal Use:** Free for personal, non-commercial use, provided you do not use it to build, distribute, or operate a competing product or commercial hosted service.
+- **Commercial & Enterprise Use:** Any commercial use by enterprises, companies, or organizations (including deployment across employee developer fleets or server-side CI/CD runners) requires a commercial license agreement from Licensor.
+
+For enterprise licensing arrangements, custom use grants, or cloud integrations:  
+📧 Contact: **enterprise@airshell.dev** or visit **[github.com/airshell](https://github.com/airshell)**.
 
 ---
 
-## Open-Source License & Attribution
-
-- The agent skill definitions (`skills/`) and installer scripts (`install.sh`) are licensed under the **[Apache License 2.0](LICENSE)**.
-- Developed with precision by **[Airshell](https://github.com/airshell)**.
+Developed with precision by **[Airshell](https://github.com/airshell)**.

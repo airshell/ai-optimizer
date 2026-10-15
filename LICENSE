@@ -1,17 +1,64 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+# AI Optimizer Licensing: Dual & Mixed License Model
 
-   Copyright 2026 Airshell
+This repository is licensed under a mixed licensing structure combining the **MIT License** for open-source developer skills and scripts, and the **Business Source License 1.1 (BSL-1.1)** for the application, desktop software, and binary tools.
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+---
 
-       http://www.apache.org/licenses/LICENSE-2.0
+## 1. Open Source Components (MIT License)
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+The following components are licensed under the **MIT License**:
+- Agent Prompt Skills: `skills/` (including `skills/ai-optimizer/SKILL.md`)
+- Installer Scripts: `install.sh`
+- Documentation and guides: `README.md` and related documentation
+
+### MIT License Text
+Copyright (c) 2026 Airshell (https://github.com/airshell)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 2. Application & Core Telemetry Tools (Business Source License 1.1)
+
+The **AI Optimizer Application**, binary packages, desktop companions, and telemetry engine are licensed under the **Business Source License 1.1 (BSL-1.1)**.
+
+### Parameters
+- **Licensor:** Airshell (https://github.com/airshell)
+- **Licensed Work:** AI Optimizer (ai-opt) v1.0 and later. © 2026 Airshell.
+- **Additional Use Grant (Personal & Non-Commercial Use):**
+  You may make free personal and non-production use of the Licensed Work, including running it locally for individual development workflows, provided that you do not use it to build, offer, or distribute a competing product, commercial managed cloud service, or hosted multi-tenant API service.
+- **Commercial & Enterprise Use:**
+  Any enterprise, company, or organization utilizing the Licensed Work for commercial purposes, server-side CI/CD runners, or developer fleet deployment must obtain a valid commercial license from Licensor.
+  Contact: **enterprise@airshell.dev** or visit **https://github.com/airshell**
+- **Change Date:** Four years from the date each version of the Licensed Work is published.
+- **Change License:** GNU Affero General Public License, version 3 or later (AGPL-3.0-or-later).
+
+---
+
+### BSL 1.1 Terms
+
+The Licensor hereby grants you the right to copy, modify, create derivative works, redistribute, and make non-production use of the Licensed Work. The Licensor may make an Additional Use Grant, above, permitting limited production use.
+
+Effective on the Change Date, or the fourth anniversary of the first publicly available distribution of a specific version of the Licensed Work under this License, whichever comes first, the Licensor hereby grants you rights under the terms of the Change License, and the rights granted in the paragraph above terminate.
+
+If your use of the Licensed Work does not comply with the requirements currently in effect as described in this License, you must purchase a commercial license from the Licensor, its affiliated entities, or authorized resellers, or you must refrain from using the Licensed Work.
+
+All copies of the original and modified Licensed Work, and derivative works of the Licensed Work, are subject to this License.
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSED WORK IS PROVIDED ON AN "AS IS" BASIS. LICENSOR HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS, EXPRESS OR IMPLIED.
