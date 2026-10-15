@@ -8,7 +8,7 @@ argument-hint: "[lite|full|ultra]"
 license: MIT
 ---
 
-# AI Optimizer — Autonomous Coding & Token Telemetry Skill
+# AI Optimizer — Autonomous Coding & Token Optimization Skill
 
 > **Core Philosophy**
 > The most economical and reliable code is the code that never had to be written. Every token emitted into context or output has a latency, cost, cognitive, and carbon footprint. Solve the whole problem with the cleanest, smallest complete change.
@@ -63,10 +63,10 @@ Never compromise the following for token or code brevity:
 
 ## 4. CLI & Verification Workflows
 
-Verify optimization status and inspect live telemetry at any time:
+Verify optimization status and inspect live usage at any time:
 
 ```bash
-# Today's live token and cost telemetry
+# Today's live token and cost breakdown
 ai-opt --today
 
 # Daily summary table over the last 30 days
@@ -75,7 +75,7 @@ ai-opt --daily
 # Inspect dynamic compression and trimming savings
 ai-opt --savings
 
-# Start the local real-time telemetry dashboard (port 4567)
+# Start the local real-time usage dashboard (port 4567)
 ai-opt --serve
 ```
 

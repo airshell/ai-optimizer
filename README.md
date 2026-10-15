@@ -8,7 +8,7 @@
     <a href="https://github.com/airshell/ai-optimizer/releases/latest"><img src="https://img.shields.io/badge/Release-v1.0.0-00ed64?style=flat-square" alt="Release" /></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT%20%26%20BSL--1.1-blue?style=flat-square" alt="License: MIT & BSL-1.1" /></a>
     <img src="https://img.shields.io/badge/Platform-macOS%20MenuBar%20%7C%20CLI-black?style=flat-square" alt="Platform" />
-    <img src="https://img.shields.io/badge/Telemetry-100%25%20Zero--Mock-orange?style=flat-square" alt="Zero-Mock" />
+    <img src="https://img.shields.io/badge/Privacy-100%25%20Offline%20%26%20Local-00ed64?style=flat-square" alt="100% Local & Private" />
   </p>
 </div>
 
@@ -23,6 +23,10 @@ By combining real-time token and cost auditing with software engineering best pr
 > *Optimize your AI workflows. Reduce unnecessary token consumption. Cut costs. Write better code.*
 
 🌐 **Official Website:** [optimizer.aimaxo.com](https://optimizer.aimaxo.com)
+
+> [!IMPORTANT]
+> **🔒 100% Offline & Private by Design**  
+> AI Optimizer runs entirely on your local machine. Every token count, usage metric, and dollar estimate is read directly from your local filesystem logs (`~/.gemini`, `~/.codex`, `~/.claude`). **Zero network calls, zero remote servers, zero external data tracking, and zero code or prompts ever leave your computer.**
 
 ---
 
@@ -39,9 +43,9 @@ AI Optimizer aims to make AI-assisted software development not just more powerfu
 - **⚡ Savings Insights** — Discover and verify token and cost savings achieved through context compression, prompt caching, and surgical diffs.
 - **🛠️ Code Quality Optimization** — Encourage cleaner, more maintainable code using established software development best practices (stdlib-first, modular design, zero speculative abstractions).
 - **📝 Token-Efficient Code Generation** — Cut conversational filler, duplication, and inefficient implementation patterns so coding agents achieve more with fewer tokens.
-- **🖥️ Native macOS Menu Bar Companion** — Ultra-lightweight status bar telemetry displaying live intensity (`lite`, `full`, `ultra`), active agent status, and token velocity in a sleek Obsidian dark popover dashboard.
+- **🖥️ Native macOS Menu Bar Companion** — Ultra-lightweight status bar monitor displaying live intensity (`lite`, `full`, `ultra`), active agent status, and token velocity in a sleek Obsidian dark popover dashboard.
 - **🛡️ Truth-First Deduplication** — Canonical summary event parsing (`token_usage_record`) with turn-by-turn fallback prevents artificial double-counting of prompt tokens.
-- **🔒 100% Local & Private** — Runs entirely offline on your local machine. No external telemetry, no remote analytics, zero data leakage.
+- **🔒 100% Local & Private** — Runs entirely offline on your local machine. Zero external network connections, zero cloud analytics, zero data leakage.
 
 ---
 
@@ -113,12 +117,28 @@ Adopt the AI Optimizer full tier: enforce YAGNI architecture, surgical diffs, st
 
 ---
 
+---
+
+## 🌟 Recommended Companion Skills for Maximum Token & Cost Savings
+
+To help you get the most out of AI Optimizer, we have curated and battle-tested the most impactful companion skills designed to eliminate token waste:
+
+| Skill | Primary Benefit | Why It Saves Tokens & Money |
+| :--- | :--- | :--- |
+| `context-budget` | **Context Window Auditor** | Scans active rules, skills, MCP servers, and prompt files to identify context bloat and reclaim valuable token headroom. |
+| `token-budget-advisor` | **Upfront Depth Controller** | Classifies request complexity and gives you control over response verbosity before the agent starts generating code. |
+| `prompt-optimizer` | **Prompt Compactor** | Refines raw prompts into surgical, high-signal instructions that maximize prompt-cache hit rates (up to 90%+). |
+| `regex-vs-llm` | **Zero-Token Text Extractor** | Uses fast, deterministic regular expressions for 95%+ of structured text tasks, saving LLM calls strictly for edge cases. |
+| `cost-tracking` | **Session Spend Breakdown** | Provides granular per-session cost and model accounting from local session logs without external API dependencies. |
+
+---
+
 ## 🚀 Coming Soon: AI Optimizer Enterprise (Server CLI)
 
 We are launching the **AI Optimizer Enterprise Server Edition**, tailored for engineering organizations and cloud infrastructure:
 
 - **CI/CD Token Quotas**: Block runaway agent loops in automated pull request review pipelines.
-- **Headless Server Telemetry**: Deploy as a daemon in dev containers, ephemeral cloud environments, and Kubernetes developer pods.
+- **Headless Server Monitoring**: Deploy as a lightweight background daemon in dev containers, ephemeral cloud environments, and Kubernetes developer pods.
 - **Fleet-Wide Cost Auditing**: Aggregate agent spend across engineering teams with centralized budgeting and rate-card alerts.
 - **Enterprise SLA & Support**: Custom model adapters, private pricing overrides, and compliance integration.
 
@@ -132,8 +152,8 @@ This repository uses a **Mixed Licensing Model** ([LICENSE](LICENSE)):
 - The agent skill definitions (`skills/`) and installer scripts (`install.sh`) are licensed under the **[MIT License](LICENSE)**.
 - Free to use, adapt, and integrate into any personal or open-source workflow.
 
-### 2. Application & Telemetry Engine (Business Source License 1.1)
-- The **AI Optimizer Application**, binary packages, desktop companions, and telemetry engine are licensed under the **[Business Source License 1.1 (BSL-1.1)](LICENSE)** (converting to GNU AGPLv3 after 4 years).
+### 2. Application & Core Engine (Business Source License 1.1)
+- The **AI Optimizer Application**, binary packages, desktop companions, and core optimization engine are licensed under the **[Business Source License 1.1 (BSL-1.1)](LICENSE)** (converting to GNU AGPLv3 after 4 years).
 - **Personal Use:** Free for personal, non-commercial use, provided you do not use it to build, distribute, or operate a competing product or commercial hosted service.
 - **Commercial & Enterprise Use:** Any commercial use by enterprises, companies, or organizations (including deployment across employee developer fleets or server-side CI/CD runners) requires a commercial license agreement from Licensor.
 
