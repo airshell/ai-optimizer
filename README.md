@@ -49,6 +49,33 @@ AI Optimizer aims to make AI-assisted software development not just more powerfu
 
 ---
 
+## 📸 Visual Tour & Dashboard Walkthrough
+
+### 1. Live Overview & Control Hub
+![AI Optimizer Live Overview](assets/ai-optimizer-overview-framed.jpg)
+
+The **Live Overview** serves as your central command deck for real-time AI usage and optimization:
+- **Live Intensity Switcher:** One-click toggles between `lite`, `full`, and `ultra` optimization tiers to adapt token compression depth dynamically across your active projects.
+- **Real-Time Savings Counters:** High-visibility metrics track cumulative tokens saved, carbon emissions avoided (via EcoLogits models), and net dollar savings calculated against standard un-optimized baseline usage.
+- **Spend Summary:** Transparent breakdown comparing actual net spend vs. calculated baseline spend across your models.
+- **Active Agent Monitor:** Automatic filesystem discovery for installed tools (Google Antigravity, OpenAI Codex, Claude Code, RTK Proxy, and more) with per-agent toggle switches to activate or pause optimization on the fly.
+- **Instant Period Filtering:** Switch effortlessly between `Today`, `This month`, and `All time` to inspect short-term velocity or lifetime impact.
+
+---
+
+### 2. Efficiency & Resource Analytics
+![AI Optimizer Efficiency Analytics](assets/ai-optimizer-impact-framed.jpg)
+
+The **Efficiency & Resource Analytics** screen gives you deep, transparent visibility into your model usage and token economics:
+- **Daily Token Velocity Chart:** Visual histogram of day-by-day output token volume over the selected billing cycle, helping you identify usage spikes and model workload trends.
+- **Per-Agent Breakdown Ledger:** Multi-column accounting table showing exact session counts, output tokens, input prompt tokens, and cache-read tokens for each installed AI assistant.
+- **Prompt Cache Efficiency:** Dedicated accounting for cache-read tokens, verifying cost reductions achieved through high cache-hit rates.
+- **Environmental & Financial ROI:** Accurate carbon impact calculations and dollar savings per tool derived directly from official model rate cards.
+- **100% Local Proof:** Every figure is computed directly from your local filesystem logs (`~/.gemini`, `~/.codex`, `~/.claude`) without sending data or prompts over the internet.
+
+
+---
+
 ## 💻 1-Click Desktop Installation
 
 ### Option 1: Quick Install via Terminal (Recommended)
