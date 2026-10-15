@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="assets/logo-icon.png" width="88" height="88" alt="AI Optimizer Brand Icon" />
+  <img src="assets/logo-icon.png" width="96" height="96" alt="AI Optimizer Brand Icon" />
   <h1>AI Optimizer</h1>
-  <p><strong>Universal Token, Cost & Efficiency Engine for AI Coding Agents</strong></p>
+  <p><strong>Less Tokens. Lower Costs. Better Code.</strong></p>
 
   <p>
     <a href="https://github.com/airshell/ai-optimizer/releases/latest"><img src="https://img.shields.io/badge/Release-v1.0.0-00ed64?style=flat-square" alt="Release" /></a>
@@ -15,32 +15,38 @@
 
 ## Overview
 
-**AI Optimizer** is an autonomous token accounting, cost auditing, and code efficiency engine designed to cut AI coding agent token waste and API costs by **30% to 53%** with zero loss of solution quality.
+**AI Optimizer** is a cross-platform auditing and optimization tool for AI coding agents that helps developers track token usage, analyze costs, measure real savings, and improve code quality.
 
-It couples **cross-agent optimization skills** (enforcing surgical diffs, stdlib-first solutions, context compression, and prompt cache reuse) with a **native macOS Menu Bar companion** delivering live, real-time token spend, velocity, and savings telemetry directly from your local filesystem.
+By combining real-time token and cost auditing with software engineering best practices (strict YAGNI, surgical diffs, stdlib-first solutions, and prompt-cache maximization), AI Optimizer helps coding agents generate cleaner, more maintainable, and more efficient code while slashing token waste and LLM API costs by **30% to 53%**.
 
----
-
-## Key Features
-
-- **⚡ Native macOS Menu Bar Companion**: Ultra-lightweight status bar telemetry displaying live intensity (`lite`, `full`, `ultra`), active agent state, and token savings in an Obsidian dark popover dashboard.
-- **🔍 Multi-Agent Unified Accounting**: Native transcript parsers for:
-  - **Google Antigravity (`agy` & Antigravity IDE)**
-  - **OpenAI Codex** (CLI & IDE extension)
-  - **Anthropic Claude Code**
-  - **RTK Proxy & Ponytail**
-  - **OpenCode, Gemini CLI, Cursor, Windsurf & Cline**
-- **🛡️ Truth-First Deduplication**: Canonical summary event parsing (`token_usage_record`) with turn-by-turn fallback prevents artificial double-counting of prompt tokens.
-- **🔒 100% Local & Private**: Runs entirely offline on your local machine. No external telemetry, no remote analytics, zero data leakage.
-- **🚀 Ultra-Low Overhead**: Native Swift frontend + high-performance in-memory aggregation cache delivers `< 2ms` dashboard response times with negligible battery impact.
+> *Optimize your AI workflows. Reduce unnecessary token consumption. Cut costs. Write better code.*
 
 ---
 
-## 1-Click Desktop Installation
+## 🎯 The Goal
+
+AI Optimizer aims to make AI-assisted software development not just more powerful, but also more **economical, private, and engineering-focused** — helping developers get better results from their AI coding assistants without wasting tokens or compromising code quality.
+
+---
+
+## ✨ Key Features
+
+- **📊 Token Usage Auditing** — Track and analyze real token consumption (input, output, and cache reads) across supported AI coding agents.
+- **💰 Real-Time Cost Analysis** — Understand AI usage costs per model and identify opportunities to reduce spending.
+- **⚡ Savings Insights** — Discover and verify token and cost savings achieved through context compression, prompt caching, and surgical diffs.
+- **🛠️ Code Quality Optimization** — Encourage cleaner, more maintainable code using established software development best practices (stdlib-first, modular design, zero speculative abstractions).
+- **📝 Token-Efficient Code Generation** — Cut conversational filler, duplication, and inefficient implementation patterns so coding agents achieve more with fewer tokens.
+- **🖥️ Native macOS Menu Bar Companion** — Ultra-lightweight status bar telemetry displaying live intensity (`lite`, `full`, `ultra`), active agent status, and token velocity in a sleek Obsidian dark popover dashboard.
+- **🛡️ Truth-First Deduplication** — Canonical summary event parsing (`token_usage_record`) with turn-by-turn fallback prevents artificial double-counting of prompt tokens.
+- **🔒 100% Local & Private** — Runs entirely offline on your local machine. No external telemetry, no remote analytics, zero data leakage.
+
+---
+
+## 💻 1-Click Desktop Installation
 
 ### Option 1: Quick Install via Terminal (Recommended)
 
-Run the following command to automatically download, install, and clear macOS Gatekeeper quarantine for the native Menu Bar companion:
+Run the following command to automatically download, install, and clear macOS Gatekeeper quarantine for the native Menu Bar app:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/airshell/ai-optimizer/main/install.sh | bash
@@ -58,7 +64,19 @@ Download the disk image directly from our GitHub Releases:
 
 ---
 
-## How to Use the Open-Source Agent Skills
+## 🤖 Supported Agents & Unified Multi-Agent Accounting
+
+AI Optimizer provides native, zero-mock filesystem and transcript parsers for:
+
+- **Google Antigravity (`agy` & Antigravity IDE)**
+- **OpenAI Codex** (CLI & IDE extension)
+- **Anthropic Claude Code**
+- **RTK Proxy & Ponytail**
+- **OpenCode, Gemini CLI, Cursor, Windsurf & Cline**
+
+---
+
+## 🧠 How to Use the Open-Source Agent Skills
 
 The open-source optimization skill is located at [`skills/ai-optimizer/SKILL.md`](skills/ai-optimizer/SKILL.md). It provides autonomous instructions that instruct coding assistants to produce minimal, high-leverage code and maximize prompt caching.
 
