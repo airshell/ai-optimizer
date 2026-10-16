@@ -49,6 +49,10 @@ AI Optimizer aims to make AI-assisted software development not just more powerfu
 - **🖥️ Native macOS Menu Bar Companion** — Ultra-lightweight status bar monitor displaying live intensity (`lite`, `full`, `ultra`), active agent status, and token velocity in a sleek Obsidian dark popover dashboard.
 - **🛡️ Truth-First Deduplication** — Canonical summary event parsing (`token_usage_record`) with turn-by-turn fallback prevents artificial double-counting of prompt tokens.
 - **🔒 100% Local & Private** — Runs entirely offline on your local machine. Zero external network connections, zero cloud analytics, zero data leakage.
+- **⚡ Strict Low-Thermal & Zero-CPU Footprint** — Maintains near-zero (< 0.1%) idle CPU utilization and sub-25ms response times with visibility-driven execution, preventing laptop battery drain or thermal fan spikes.
+- **🛡️ Enterprise Long-Horizon Harness** — Autonomous execution in isolated Git sandbox bundles with pre-dispatch liability caps, fail-closed quality gates (automatic test & config tampering pruning), and two-phase candidate promotion.
+- **🔑 Cryptographic Entitlements & Local Activation** — Authentic Ed25519 signature verification ensures full enterprise capabilities and local activation privacy without external network phone-homes.
+- **📦 Programmatic TypeScript SDK (@airshell/ai-optimizer)** — Type-safe SDK contracts enabling developers to integrate context compression, token accounting, and supervised harnesses into custom agent workflows.
 
 ---
 
@@ -186,14 +190,16 @@ To help you get the most out of AI Optimizer, we have curated and battle-tested 
 
 ---
 
-## 🚀 Coming Soon: AI Optimizer Enterprise (Server CLI)
+## 🏢 Enterprise Long-Horizon Harness & SDK (Now Available in v1.0)
 
-We are launching the **AI Optimizer Enterprise Server Edition**, tailored for engineering organizations and cloud infrastructure:
+AI Optimizer includes a production-grade **Long-Horizon Harness** and programmatic **TypeScript SDK** designed for autonomous agent workflows:
 
-- **CI/CD Token Quotas**: Block runaway agent loops in automated pull request review pipelines.
-- **Headless Server Monitoring**: Deploy as a lightweight background daemon in dev containers, ephemeral cloud environments, and Kubernetes developer pods.
-- **Fleet-Wide Cost Auditing**: Aggregate agent spend across engineering teams with centralized budgeting and rate-card alerts.
-- **Enterprise SLA & Support**: Custom model adapters, private pricing overrides, and compliance integration.
+- **Pre-Dispatch Liability Caps**: Intercepts model tool calls before transmission, enforcing strict hard budget ceilings so runaway agent loops can never overspend your budget.
+- **Transactional Git Sandboxes**: Agent workers execute within isolated Git bundle mirrors. If a run fails or tests break, your working tree remains pristine.
+- **Fail-Closed Quality Gate**: Automatically prunes unauthorized test modifications, dependency insertions, or configuration mutations created by errant agents.
+- **Two-Phase Candidate Promotion**: Changes are only merged into your primary branch after all tests pass cleanly and human/CI approval gates clear.
+- **Durable CRC32 Framing Ledger**: Every agent step, tool invocation, and token expenditure is recorded in an fsync-flushed binary ledger resilient to power cuts and process aborts.
+- **Programmatic TypeScript SDK**: Full typings in [`sdk/index.d.ts`](sdk/index.d.ts) for integrating agent supervision into your Node.js or TypeScript stacks.
 
 ---
 
